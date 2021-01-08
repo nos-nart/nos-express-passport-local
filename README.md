@@ -4,6 +4,7 @@
 + passport-local
 + mongoose
 + ejs
++ pino logger
 
 It got error 302 when try to redirect by passport
 
