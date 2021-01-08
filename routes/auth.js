@@ -3,7 +3,7 @@ const router = express.Router();
 const passport = require('passport');
 
 router.post('/register', passport.authenticate('local-register', {
-  successRedirect: '/',
+  successRedirect: '/login',
   failureRedirect: '/register',
   failureFlash: true
 }))
